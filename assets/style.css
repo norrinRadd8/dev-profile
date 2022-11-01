@@ -53,7 +53,7 @@ body, html {
 
   #mainHero {
     grid-area: mainHero;
-    background-image: url('/assets/images/me_in_light_aircraft.JPG');
+    background-image: url('/dev-profile/assets/images/me_in_light_aircraft.JPG');
 
   }
 
@@ -109,25 +109,25 @@ body, html {
   #futureself {
     display: grid;
     grid-area: futureself;
-    background-image: url("/assets/images/fss.png");
+    background-image: url("/dev-profile/assets/images/fss.png");
   }
  
   #wltdesign {
     display: grid;
     grid-area: wltdesign;
-    background-image: url("/assets/images/wltdesign.png");
+    background-image: url("/dev-profile/assets/images/wltdesign.png");
   }
   
   #twi {
     display: grid;
     grid-area: twi;
-    background-image: url("/assets/images/twi.png");
+    background-image: url("/dev-profile/assets/images/twi.png");
   }
   
   #horiseon {
     display: grid;
     grid-area: horiseon;
-    background-image: url("/assets/images/horiseon.png");
+    background-image: url("/dev-profile/assets/images/horiseon.png");
   }
   
   .portGridArea {
