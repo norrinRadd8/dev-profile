@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+    background-color: gray;
+    scroll-behavior: smooth;
+} 
+
+
+/* Navigation */
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+#navBar h1 {
+    width: 25%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  #navigation {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  #navigation a {
+    cursor: pointer;
+    text-decoration: none;
+    padding:2%;
+    color: white;
+  }
+   #navigation a:hover {
+    color: rgba(39, 16, 246, 0.9);
+    transition: 0.8s ease;
+  }
+
+  /* Hero Selection */
+  #heroGrid {
+    display: grid;
+    width: 100%;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-areas:
+    "mainHero";
+  }
+
+  #mainHero {
+    grid-area: mainHero;
+    background-image: url('/assets/images/me_in_light_aircraft.JPG');
+
+  }
+
+  .heroGridArea h1 {
+    padding: 25px;
+    z-index: 100;
+    font-size: 75px;
+  }
+
+  .heroGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+
+  /* About Section */
+  .aboutGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 70px;
+    text-align: center;
+    color: white;
+  }
+
+.about-info {
+    display: grid;
+}
+
+.about--info a:hover {
+    color: rgba(255, 255, 255, 0.9);
+    transition: 0.8s ease;
+}
+.about--info {
+    margin: 15px 15px 15px 0;
+}
+
+  /* Portfolio Section */
+  #portGrid {
+    margin: 5%;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-areas:
+    "futureself wltdesign horiseon"
+    "twi twi horiseon" ;
+  }
+  #portGrid a {
+    text-decoration: none;
+  }
+
+  #futureself {
+    display: grid;
+    grid-area: futureself;
+    background-image: url("/assets/images/fss.png");
+  }
+ 
+  #wltdesign {
+    display: grid;
+    grid-area: wltdesign;
+    background-image: url("/assets/images/wltdesign.png");
+  }
+  
+  #twi {
+    display: grid;
+    grid-area: twi;
+    background-image: url("/assets/images/twi.png");
+  }
+  
+  #horiseon {
+    display: grid;
+    grid-area: horiseon;
+    background-image: url("/assets/images/horiseon.png");
+  }
+  
+  .portGridArea {
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  }
+  
+  .heading {
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    height: 25px;
+    color: white;
+    font-size: 18px;
+  }
+  
+ .heading:hover {
+    background-color: rgba(39, 16, 246, 0.9);
+    transition: 0.8s ease;
+  }
+
+    /* Footer Section */
+    footer {
+        background-color: gray;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+        
+    @media screen and (max-width: 640px) {
+      #heroGrid {
+        height: 0vh;
+      }  
+
+      #portGrid {
+            margin: 5%;
+            display: grid;
+            grid-template-rows: 300px 300px 300px 300px;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+            "futureself" "wltdesign" "horiseon"
+            "twi"  ;
+          }
+           
+        
+    }
