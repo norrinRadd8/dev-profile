@@ -18,7 +18,8 @@ N/A
 
 The following image shows the web application's appearance and functionality:
 
-![The Hal | Web Developer webpage includes a navigation bar, a header image, and cards with text and images.](/dev-profile/assets/images/hal-web-dev-port.gif)[and](/dev-profile/assets/images/hal-web-dev-port-ss.png)
+![The Hal | Web Developer webpage includes a navigation bar, a header image, and cards with text and images.](/dev-profile/assets/images/hal-web-dev-port.gif)
+![Another link to site image.](/dev-profile/assets/images/hal-web-dev-port-ss.png)
 
 This is an initial show case project that represents key lessons requirements;
 When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
