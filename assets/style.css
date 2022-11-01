@@ -92,6 +92,9 @@ body, html {
 .about--info {
     margin: 15px 15px 15px 0;
 }
+.about--info a {
+  text-decoration: none;
+}
 
   /* Portfolio Section */
   #portGrid {
