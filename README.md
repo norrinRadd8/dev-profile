@@ -12,7 +12,7 @@ N/A
 
 ## Installation
 * Live link to website for review. https://norrinradd8.github.io/dev-profile/
-* GitHub URL. https://github.com/norrinRadd8/portfolio.git
+* GitHub URL. https://github.com/norrinRadd8/dev-profile.git
 
 ## Usage
 
